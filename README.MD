@@ -1,6 +1,6 @@
 # Python Juicenet
 
-Access to the Juicenet EVSE charger API
+Access to the Chargepoint EV charger API
 
 
 ## Example
@@ -8,11 +8,11 @@ Access to the Juicenet EVSE charger API
 ```python
 import aiohttp
 import asyncio
-import pyjuicenet
+import pychargepoint
 
 async def main():
   async with aiohttp.ClientSession() as session:
-    api = pyjuicenet.Api('ACCESS_TOKEN', session)
+    api = pychargepoint.Api('ACCESS_TOKEN', session)
     devices = await api.get_devices()
     charger = devices[0]
     await charger.update_state()
