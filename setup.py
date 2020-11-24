@@ -1,10 +1,10 @@
 from setuptools import find_packages, setup
 
-setup(name='python-juicenet',
+setup(name='python-chargepoint',
       version='1.0.1',
-      description='Read and control Juicenet/Juicepoint/Juicebox based EVSE devices',
-      url='http://github.com/jesserockz/python-juicenet',
-      author='@jesserockz',
+      description='Read and control Chargepoint based EV devices',
+      url='http://github.com/drynish/python-chargepoint',
+      author='@drynish',
       license='MIT',
       install_requires=[
             'aiohttp',

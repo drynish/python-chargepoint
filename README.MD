@@ -1,4 +1,4 @@
-# Python Juicenet
+# Python Chargepoint
 
 Access to the Chargepoint EV charger API
 
